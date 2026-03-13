@@ -19,7 +19,7 @@ print('network config:', sta_if.ifconfig())
 
 # ****************************
 # ****************************
-# LINE NOTIFY IF IP ADDRESS CHANGE OR ONLINE
+# LINE OFFICAIL IF IP ADDRESS CHANGE OR ONLINE
 from lineoa import LineOA_API
 
 bot = LineOA_API(channel_access_token='YOUR_CHANNEL_ACCESS_TOKEN', user_id='USER_ID')
@@ -150,6 +150,7 @@ while True:
 		conn.close()
 		print('Connection closed')
   
+
 
 
 
